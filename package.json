@@ -4,7 +4,10 @@
   "description": "Trabajar con asincronismo en JavaScript",
   "main": "source/index.js",
   "scripts": {
-    "callback": "node source/callback/index.js"
+    "callback": "node source/callback/index.js",
+    "callback:challenge": "node source/callback/challenge.js",
+    "promise": "node source/promise/index.js",
+    "promise:challenge": "node source/promise/challenge.js"
   },
   "keywords": [
     "callbacks",
@@ -12,5 +15,8 @@
     "async"
   ],
   "author": "Julian angel",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
